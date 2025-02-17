@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Deven's Food Review Home Page</title>
+</head>
+<body>
+    <header>
+        <h1>Navigate My Page</h1>
+        <nav>
+            <ul>
+                <li><a href="kamen.html"target="_blank">Most Recent Review</a></li>
+                <li><a href="Top Reviews.html"target="_blank">Top Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Deven's Food Review</h2>
+            <p>Discover the best food spots and the most honest reviews around. Find out what to eat, where to go, and what other food lovers think!</p>
+        </section>
+
+        <section id="comments">
+            <h2>Write Your Comments</h2>
+            <p>You don't need to write a comment but if you have any requests or ideas for me to do then please express your idea.</p>
+
+            <form action="/submit-form" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="20" required></textarea><br><br>
+
+                <button type="submit"> Submit</button>
+            </form>
+        </section>
+    <footer>
+        <p>&copy; 2025 Deven's Food Review</p>
+    </footer>
+</body>
+</html>
